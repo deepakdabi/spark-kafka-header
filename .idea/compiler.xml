@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark-sql-kafka-0-10_2.11" />
+        <module name="kafka-0-10-sql-hdr" />
+        <module name="kafka-0-10-sql" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-0-10-sql" target="1.5" />
+      <module name="kafka-0-10-sql-hdr" target="1.5" />
+      <module name="spark-kafka-header" target="1.5" />
+      <module name="spark-sql-kafka-0-10_2.11" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
